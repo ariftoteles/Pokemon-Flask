@@ -1,0 +1,17 @@
+body{
+	background: url('img/pokemon1.png');
+    color: #fff;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* margin-top: -100px;
+    margin-bottom: 0px */
+}
+
+.container {
+    width: 30%;
+    margin-top: 15%;
+    /* box-shadow: 0 3px 20px rgba(250, 187, 187, 0.3); */
+    padding: 40px;
+}
