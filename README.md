@@ -4,19 +4,19 @@ Project ini menggunakan  __aplikasi Flask__ untuk mencari data __Pokemon__ denga
 
 1. Server aplikasi akan berjalan di __localhost:5000__ dan ketika user melakukan GET request via browser akan tampil sebuah halaman __HTML__ sederhana yang memuat __1 buah text input__ dan __1 buah button__. 
 
-    ![poke1](./poke1.png)
+    ![poke1](./poke1.PNG)
 
 2. User dapat memasukkan nama Pokemon yang dicari ke dalam text input yang sudah disediakan. Saat user menekan tombol button, aplikasi akan mengambil data Pokemon yang dicari via Poke API: __GET__ ke https://pokeapi.co/api/v2/pokemon/{nama_Pokemon}.
 
-    ![poke_1](./poke1.png)
+    ![poke_1](./poke1.PNG)
 
 3. Jika data ditemukan, maka user akan di-redirect ke __localhost:5000/hasil__ yang berisi halaman __HTML__, yang menampilkan data seputar Pokemon yang dicari. Data yang ditampilkan hanya: __nama Pokemon__, __gambar depan Pokemon__, __nomor id Pokemon__, __tinggi badan Pokemon__ & __berat badan Pokemon__. Halaman ini juga dilengkapi __1 buah button__ untuk kembali ke halaman awal.
 
-    ![poke_2](./poke2.png)
+    ![poke_2](./poke2.PNG)
 
 4. Namun jika data tidak ditemukan atau tidak ada di dalam database Poke API, maka user akan di-redirect ke halaman __HTML__ yang memberikan informasi bahwa data tidak ditemukan. Halaman ini juga dilengkapi __1 buah button__ untuk kembali ke halaman awal.
 
-    ![poke_3](./poke3.png)
+    ![poke_3](./poke3.PNG)
 
     _**Catatan:**_
 
