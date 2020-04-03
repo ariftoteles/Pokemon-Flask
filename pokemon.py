@@ -10,7 +10,7 @@ app = Flask(__name__)
 def home():
     return render_template('pokeA.html')
 
-@app.route('/poke', methods=['GET','POST'])
+@app.route('/result', methods=['GET','POST'])
 def poke():
     if request.method == 'POST':
         pokemonCari = request.form['poke']
