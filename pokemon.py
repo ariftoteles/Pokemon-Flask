@@ -31,9 +31,6 @@ def poke():
         
         else:
             return render_template('error.html')
-# @app.route('/result')
-# def result():
-#     return render_template('result.html', poke=poke)
         
     
 if __name__ == '__main__':
